@@ -1,0 +1,82 @@
+# Copyright (C) 2024  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+
+# Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+# File: G:\My Drive\0_SFSU Study\05_Spring 2025\02_ENGR 378 - Digital System Design\00_LAB\lab6\RemoteLab.csv
+# Generated on: Thu May  8 17:15:50 2025
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Transceiver Analog Settings Protocol,VCCR_GXB/VCCT_GXB Voltage,Transceiver I/O Pin Termination,Transceiver Dedicated Refclk Pin Termination,Transmitter Common Mode Driver Voltage,Transmitter Slew Rate Control,Transmitter Differential Output Voltage,Receiver Buffer Common Mode Voltage,Strict Preservation
+CLK_50,Unknown,,,,,,,,,,,,,,,,,,
+QSEL,Input,PIN_U7,3A,B3A_N0,PIN_AB6,,,,,,,,,,,,,,
+QUERY[0],Input,PIN_U13,4A,B4A_N0,PIN_T9,,,,,,,,,,,,,,
+QUERY[1],Input,PIN_V13,4A,B4A_N0,PIN_AB8,,,,,,,,,,,,,,
+QUERY[2],Input,PIN_T13,4A,B4A_N0,PIN_AB5,,,,,,,,,,,,,,
+QUERY[3],Input,PIN_T12,4A,B4A_N0,PIN_U10,,,,,,,,,,,,,,
+QUERY[4],Input,PIN_AA15,4A,B4A_N0,PIN_M7,,,,,,,,,,,,,,
+QUERY[5],Input,PIN_AB15,4A,B4A_N0,PIN_P6,,,,,,,,,,,,,,
+QUERY[6],Input,PIN_AA14,4A,B4A_N0,PIN_M6,,,,,,,,,,,,,,
+QUERY[7],Input,PIN_AA13,4A,B4A_N0,PIN_J8,,,,,,,,,,,,,,
+QUERY[8],Input,PIN_AB13,4A,B4A_N0,PIN_G8,,,,,,,,,,,,,,
+QUERY[9],Input,PIN_AB12,4A,B4A_N0,PIN_K16,,,,,,,,,,,,,,
+altera_reserved_tck,Input,,,,PIN_V5,,,,,,,,,,,,,,
+altera_reserved_tdi,Input,,,,PIN_W5,,,,,,,,,,,,,,
+altera_reserved_tdo,Output,,,,PIN_M5,,,,,,,,,,,,,,
+altera_reserved_tms,Input,,,,PIN_P5,,,,,,,,,,,,,,
+clk,Input,PIN_M9,3B,B3B_N0,PIN_M16,,,,,,,,,,,,,,
+rst,Input,PIN_W9,3A,B3A_N0,PIN_E9,,,,,,,,,,,,,,
+seg0[0],Output,PIN_U21,4A,B4A_N0,PIN_Y11,,,,,,,,,,,,,,
+seg0[1],Output,PIN_V21,4A,B4A_N0,PIN_R11,,,,,,,,,,,,,,
+seg0[2],Output,PIN_W22,4A,B4A_N0,PIN_Y10,,,,,,,,,,,,,,
+seg0[3],Output,PIN_W21,4A,B4A_N0,PIN_M9,,,,,,,,,,,,,,
+seg0[4],Output,PIN_Y22,4A,B4A_N0,PIN_AB10,,,,,,,,,,,,,,
+seg0[5],Output,PIN_Y21,4A,B4A_N0,PIN_T10,,,,,,,,,,,,,,
+seg0[6],Output,PIN_AA22,4A,B4A_N0,PIN_AA9,,,,,,,,,,,,,,
+seg1[0],Output,PIN_AA20,4A,B4A_N0,PIN_U8,,,,,,,,,,,,,,
+seg1[1],Output,PIN_AB20,4A,B4A_N0,PIN_R6,,,,,,,,,,,,,,
+seg1[2],Output,PIN_AA19,4A,B4A_N0,PIN_R5,,,,,,,,,,,,,,
+seg1[3],Output,PIN_AA18,4A,B4A_N0,PIN_W2,,,,,,,,,,,,,,
+seg1[4],Output,PIN_AB18,4A,B4A_N0,PIN_Y3,,,,,,,,,,,,,,
+seg1[5],Output,PIN_AA17,4A,B4A_N0,PIN_AA1,,,,,,,,,,,,,,
+seg1[6],Output,PIN_U22,4A,B4A_N0,PIN_U2,,,,,,,,,,,,,,
+seg2[0],Output,PIN_Y19,4A,B4A_N0,PIN_R9,,,,,,,,,,,,,,
+seg2[1],Output,PIN_AB17,4A,B4A_N0,PIN_P8,,,,,,,,,,,,,,
+seg2[2],Output,PIN_AA10,3B,B3B_N0,PIN_Y9,,,,,,,,,,,,,,
+seg2[3],Output,PIN_Y14,4A,B4A_N0,PIN_M8,,,,,,,,,,,,,,
+seg2[4],Output,PIN_V14,4A,B4A_N0,PIN_AB7,,,,,,,,,,,,,,
+seg2[5],Output,PIN_AB22,4A,B4A_N0,PIN_AA7,,,,,,,,,,,,,,
+seg2[6],Output,PIN_AB21,4A,B4A_N0,PIN_AA10,,,,,,,,,,,,,,
+seg3[0],Output,PIN_Y16,4A,B4A_N0,PIN_P12,,,,,,,,,,,,,,
+seg3[1],Output,PIN_W16,4A,B4A_N0,PIN_U11,,,,,,,,,,,,,,
+seg3[2],Output,PIN_Y17,4A,B4A_N0,PIN_P9,,,,,,,,,,,,,,
+seg3[3],Output,PIN_V16,4A,B4A_N0,PIN_AA12,,,,,,,,,,,,,,
+seg3[4],Output,PIN_U17,4A,B4A_N0,PIN_U12,,,,,,,,,,,,,,
+seg3[5],Output,PIN_V18,4A,B4A_N0,PIN_R12,,,,,,,,,,,,,,
+seg3[6],Output,PIN_V19,4A,B4A_N0,PIN_R10,,,,,,,,,,,,,,
+seg4[0],Output,PIN_U20,4A,B4A_N0,PIN_V10,,,,,,,,,,,,,,
+seg4[1],Output,PIN_Y20,4A,B4A_N0,PIN_AA8,,,,,,,,,,,,,,
+seg4[2],Output,PIN_V20,4A,B4A_N0,PIN_U7,,,,,,,,,,,,,,
+seg4[3],Output,PIN_U16,4A,B4A_N0,PIN_P7,,,,,,,,,,,,,,
+seg4[4],Output,PIN_U15,4A,B4A_N0,PIN_V9,,,,,,,,,,,,,,
+seg4[5],Output,PIN_Y15,4A,B4A_N0,PIN_R7,,,,,,,,,,,,,,
+seg4[6],Output,PIN_P9,3B,B3B_N0,PIN_N8,,,,,,,,,,,,,,
+seg5[0],Output,PIN_N9,3B,B3B_N0,PIN_U6,,,,,,,,,,,,,,
+seg5[1],Output,PIN_M8,3B,B3B_N0,PIN_W9,,,,,,,,,,,,,,
+seg5[2],Output,PIN_T14,4A,B4A_N0,PIN_T7,,,,,,,,,,,,,,
+seg5[3],Output,PIN_P14,4A,B4A_N0,PIN_N6,,,,,,,,,,,,,,
+seg5[4],Output,PIN_C1,2A,B2A_N0,PIN_V6,,,,,,,,,,,,,,
+seg5[5],Output,PIN_C2,2A,B2A_N0,PIN_W8,,,,,,,,,,,,,,
+seg5[6],Output,PIN_W19,4A,B4A_N0,PIN_T8,,,,,,,,,,,,,,
